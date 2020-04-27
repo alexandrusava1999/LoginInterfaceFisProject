@@ -14,7 +14,7 @@
    <children>
       <ImageView fitHeight="595.0" fitWidth="346.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../resources/Pictures/dashboardscrolltab.png" />
+            <Image url="@../Pictures/dashboardscrolltab.png" />
          </image>
       </ImageView>
       <Pane prefHeight="595.0" prefWidth="346.0" />
