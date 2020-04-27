@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FxmlAndControllerClass.DashBoardController">
+   <children>
+      <ImageView fitHeight="595.0" fitWidth="346.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../resources/Pictures/dashboardscrolltab.png" />
+         </image>
+      </ImageView>
+      <Pane prefHeight="595.0" prefWidth="346.0" />
+      <ListView fx:id="listview" layoutX="13.0" layoutY="175.0" opacity="0.61" prefHeight="402.0" prefWidth="315.0" style="-fx-background-color: #000000;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="175.0">
+         <opaqueInsets>
+            <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+         </opaqueInsets>
+      </ListView>
+      <AnchorPane prefHeight="29.0" prefWidth="36.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutY="2.0" mnemonicParsing="false" prefHeight="2.0" prefWidth="75.0" text="Add Friend" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="75.0" prefHeight="29.0" prefWidth="61.0" AnchorPane.leftAnchor="75.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutY="2.0" mnemonicParsing="false" onAction="#GoToLogin" text="Log out" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="132.0" prefHeight="29.0" prefWidth="75.0">
+         <children>
+            <Button layoutY="2.0" mnemonicParsing="false" text="Groups" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="186.0" prefHeight="29.0" prefWidth="160.0" AnchorPane.bottomAnchor="566.0" AnchorPane.leftAnchor="186.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="Label1" alignment="CENTER" layoutY="-1.0" prefHeight="29.0" prefWidth="160.0" text="Username" AnchorPane.bottomAnchor="1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
