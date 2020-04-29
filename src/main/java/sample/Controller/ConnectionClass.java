@@ -1,4 +1,4 @@
-package sample.FxmlAndControllerClass;
+package sample.Controller;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

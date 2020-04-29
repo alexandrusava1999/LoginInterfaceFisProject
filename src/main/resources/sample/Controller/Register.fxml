@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.RegisterController">
+   <effect>
+      <Lighting diffuseConstant="2.0" specularConstant="0.26" specularExponent="10.24" surfaceScale="1.97">
+         <bumpInput>
+            <Shadow />
+         </bumpInput>
+
+      </Lighting>
+   </effect>
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/registerbackground.png" />
+         </image>
+      </ImageView>
+
+      <Button layoutX="156.0" layoutY="432.0" mnemonicParsing="false" onAction="#SaveData" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="0.81" specularExponent="40.0" surfaceScale="3.13">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <TextField fx:id="Username" alignment="CENTER" layoutX="114.0" layoutY="184.0" promptText="Username">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="Password" alignment="CENTER" layoutX="114.0" layoutY="220.0" promptText="Password">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <TextField fx:id="Mail" alignment="CENTER" layoutX="115.0" layoutY="258.0" prefHeight="30.0" prefWidth="175.0" promptText="Mail">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button layoutX="163.0" layoutY="376.0" mnemonicParsing="false" onAction="#changescenebutton" text="Log in">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.91" specularConstant="2.0" specularExponent="40.0" surfaceScale="2.89">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+
+            </Lighting>
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <DatePicker fx:id="Data" layoutX="115.0" layoutY="296.0" promptText="Data de nastere" />
+      <Label fx:id="Label1" alignment="CENTER" layoutX="154.0" layoutY="344.0" prefHeight="17.0" prefWidth="89.0" textFill="#80000f" />
+      <ImageView fitHeight="174.0" fitWidth="282.0" layoutX="69.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/users.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

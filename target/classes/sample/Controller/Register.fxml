@@ -6,7 +6,6 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.effect.Light.Distant?>
 <?import javafx.scene.effect.Lighting?>
 <?import javafx.scene.effect.Shadow?>
 <?import javafx.scene.image.Image?>
@@ -14,23 +13,22 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FxmlAndControllerClass.RegisterController">
+<AnchorPane prefHeight="500.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.RegisterController">
    <effect>
       <Lighting diffuseConstant="2.0" specularConstant="0.26" specularExponent="10.24" surfaceScale="1.97">
          <bumpInput>
             <Shadow />
          </bumpInput>
-         <light>
-            <Light.Distant />
-         </light>
+
       </Lighting>
    </effect>
    <children>
       <ImageView fitHeight="500.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/registerbackground.png" />
+            <Image url="@../../Pictures/registerbackground.png" />
          </image>
       </ImageView>
+
       <Button layoutX="156.0" layoutY="432.0" mnemonicParsing="false" onAction="#SaveData" text="Register">
          <font>
             <Font size="18.0" />
@@ -40,9 +38,7 @@
                <bumpInput>
                   <Shadow />
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
+
             </Lighting>
          </effect>
          <cursor>
@@ -73,21 +69,19 @@
                <bumpInput>
                   <Shadow />
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
+
             </Lighting>
          </effect>
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
       </Button>
-      <ImageView fitHeight="159.0" fitWidth="246.0" layoutX="80.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+      <DatePicker fx:id="Data" layoutX="115.0" layoutY="296.0" promptText="Data de nastere" />
+      <Label fx:id="Label1" alignment="CENTER" layoutX="154.0" layoutY="344.0" prefHeight="17.0" prefWidth="89.0" textFill="#80000f" />
+      <ImageView fitHeight="174.0" fitWidth="282.0" layoutX="69.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/users.png" />
+            <Image url="@../../Pictures/users.png" />
          </image>
       </ImageView>
-      <DatePicker fx:id="Data" layoutX="115.0" layoutY="296.0" promptText="Data de nastere" />
-      <Label fx:id="Label1" alignment="CENTER" layoutX="154.0" layoutY="344.0" prefHeight="17.0" prefWidth="89.0" textFill="RED" />
    </children>
 </AnchorPane>

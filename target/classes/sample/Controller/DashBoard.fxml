@@ -10,11 +10,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FxmlAndControllerClass.DashBoardController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="595.0" prefWidth="346.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.DashBoardController">
    <children>
       <ImageView fitHeight="595.0" fitWidth="346.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/dashboardscrolltab.png" />
+            <Image url="@../../Pictures/dashboardscrolltab.png" />
          </image>
       </ImageView>
       <Pane prefHeight="595.0" prefWidth="346.0" />

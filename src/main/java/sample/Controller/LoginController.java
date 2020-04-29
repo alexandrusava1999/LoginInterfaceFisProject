@@ -1,4 +1,4 @@
-package sample.FxmlAndControllerClass;
+package sample.Controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
@@ -21,7 +21,8 @@ public class LoginController {
         public Label Label1;
         public static String demonu;
         public void GoToRegister (ActionEvent event) throws IOException {
-                Parent Register = FXMLLoader.load(getClass().getResource("../../../../ProjectFisChatApplication/src/main/java/sample/FxmlAndControllerClass/Register.fxml"));
+
+                Parent Register = FXMLLoader.load(getClass().getResource("/sample/Controller/Register.fxml"));
                 Scene registerwindow = new Scene(Register);
                 Stage window = (Stage) ((Node)event.getSource()).getScene().getWindow();
 
@@ -43,6 +44,7 @@ public class LoginController {
 
                         while (myResult.next()) {
                                 dataName=myResult.getString("Name");
+
                                 if(UserName.equals(dataName))
                                 {
                                         sw=true;

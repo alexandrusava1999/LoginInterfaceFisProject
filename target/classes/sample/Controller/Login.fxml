@@ -13,11 +13,11 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #1d3357;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FxmlAndControllerClass.LoginController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #1d3357;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.LoginController">
    <children>
       <ImageView fitHeight="400.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../Pictures/loginbackground.png" />
+            <Image url="@../../Pictures/loginbackground.png" />
          </image>
       </ImageView>
       <Label fx:id="Label1" alignment="CENTER" layoutX="86.0" prefHeight="42.0" prefWidth="224.0" textFill="RED" AnchorPane.bottomAnchor="358.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="0.0">
@@ -57,17 +57,17 @@
       </TextField>
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="101.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="273.7100601196289" AnchorPane.leftAnchor="101.0" AnchorPane.rightAnchor="99.0" AnchorPane.topAnchor="47.0">
          <image>
-            <Image url="@../Pictures/logo.png" />
+            <Image url="@../../Pictures/logo.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="42.0" fitWidth="41.0" layoutX="55.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="152.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="313.20000076293945" AnchorPane.topAnchor="206.0">
          <image>
-            <Image url="@../Pictures/lock.png" />
+            <Image url="@../../Pictures/lock.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="39.0" fitWidth="38.0" layoutX="52.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="207.44927597045898" AnchorPane.leftAnchor="52.0" AnchorPane.rightAnchor="310.0" AnchorPane.topAnchor="154.0">
          <image>
-            <Image url="@../Pictures/user.png" />
+            <Image url="@../../Pictures/user.png" />
          </image>
       </ImageView>
       <Button layoutX="127.0" layoutY="338.0" mnemonicParsing="false" onAction="#GoToRegister" style="-fx-background-color: #113e69;" text="Create Account" textFill="WHITE">
