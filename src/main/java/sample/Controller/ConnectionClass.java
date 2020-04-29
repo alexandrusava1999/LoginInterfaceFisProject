@@ -13,7 +13,7 @@ public class ConnectionClass {
         String password="";
 
         try {
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
+            Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
 
             connection= DriverManager.getConnection("jdbc:mysql://localhost/"+dbName,userName,password);
 

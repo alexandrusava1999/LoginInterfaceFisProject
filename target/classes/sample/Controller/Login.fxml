@@ -34,9 +34,7 @@
                <bumpInput>
                   <Shadow />
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
+
             </Lighting>
          </effect>
       </PasswordField>
@@ -49,9 +47,7 @@
                <bumpInput>
                   <Shadow />
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
+
             </Lighting>
          </effect>
       </TextField>
@@ -76,9 +72,7 @@
                <bumpInput>
                   <Shadow />
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
+
             </Lighting>
          </effect>
          <font>
@@ -97,9 +91,7 @@
                <bumpInput>
                   <Shadow />
                </bumpInput>
-               <light>
-                  <Light.Distant />
-               </light>
+
             </Lighting>
          </effect>
          <cursor>
@@ -112,9 +104,7 @@
          <bumpInput>
             <Shadow />
          </bumpInput>
-         <light>
-            <Light.Distant />
-         </light>
+
       </Lighting>
    </effect>
 </AnchorPane>
