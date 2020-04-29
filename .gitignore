@@ -1,0 +1,13 @@
+.idea
+*.iml
+target
+.gitignore
+.mvn/
+src/
+mvnw
+mvnw.cmd
+pom.xml
+out/production/InterfaceFisProject/Library/
+out/production/InterfaceFisProject/sample/FxmlAndControllerClass/
+out/production/InterfaceFisProject/sample/Main.class
+out/production/InterfaceFisProject/sample/Pictures/
