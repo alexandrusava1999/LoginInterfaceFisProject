@@ -4,3 +4,13 @@
 
 
 
+.mvn/wrapper/maven-wrapper.jar
+out/
+target/classes/sample/Controller/BasicCrypto.class
+target/classes/sample/Controller/ConnectionClass.class
+target/classes/sample/Controller/JavaMailSend$1.class
+target/classes/sample/Controller/JavaMailSend.class
+target/classes/sample/Controller/LoginController.class
+target/classes/sample/Controller/RegisterController.class
+target/classes/sample/Main.class
+target/generated-sources/
